@@ -1,0 +1,14 @@
+Hướng dẫn sử dụng Git
+push code to github from local
+git init: khởi tạo kho lưu trữ git mới
+git remote add origin https://github.com/.....
+git remote -v : kiểm tra đường dẫn đã remote
+git add . : thêm tất cả thay đổi trong thư mục hiện tại
+git commit -m "your commit": để tạo một commit với thông điệp được chỉ định ngay trong dòng lệnh.
+git push origin master: đẩy code lên nhánh master => có thể chia ra nhiều nhánh khác nhau
+clone dự án bằng git
+git clone https://......
+Update code sau mỗi lần sửa
+git add .
+git commit -m "second commit"
+git push origin master
